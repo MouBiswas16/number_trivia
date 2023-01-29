@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors_in_immutables
+// ignore_for_file: prefer_const_constructors_in_immutables, import_of_legacy_library_into_null_safe
 
 import 'package:equatable/equatable.dart';
 
