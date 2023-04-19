@@ -2,9 +2,9 @@
 
 import 'package:dartz/dartz.dart';
 import 'package:number_trivia/core/usecasses/usecase.dart';
-import 'package:number_trivia/features/number_trivia_screen/domain/entities/number_trivia.dart';
-import 'package:number_trivia/features/number_trivia_screen/domain/repositories/number_trivia_repository.dart';
-import 'package:number_trivia/features/number_trivia_screen/domain/usecases/get_random_number_trivia.dart';
+import 'package:number_trivia/features/number_trivia/domain/entities/number_trivia.dart';
+import 'package:number_trivia/features/number_trivia/domain/repositories/number_trivia_repository.dart';
+import 'package:number_trivia/features/number_trivia/domain/usecases/get_random_number_trivia.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mockito/mockito.dart';
 

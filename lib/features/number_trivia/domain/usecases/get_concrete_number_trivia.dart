@@ -3,8 +3,8 @@
 import 'package:dartz/dartz.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter/foundation.dart';
-import 'package:number_trivia/features/number_trivia_screen/domain/entities/number_trivia.dart';
-import 'package:number_trivia/features/number_trivia_screen/domain/repositories/number_trivia_repository.dart';
+import 'package:number_trivia/features/number_trivia/domain/entities/number_trivia.dart';
+import 'package:number_trivia/features/number_trivia/domain/repositories/number_trivia_repository.dart';
 
 import '../../../../core/error/failures.dart';
 import '../../../../core/usecasses/usecase.dart';
