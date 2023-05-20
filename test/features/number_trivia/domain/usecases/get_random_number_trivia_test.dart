@@ -12,12 +12,12 @@ class MockNumberTriviaRepository extends Mock
     implements NumberTriviaRepository {}
 
 void main() {
-  GetRandomNumberTivia? usecase;
+  GetRandomNumberTrivia? usecase;
   MockNumberTriviaRepository? mockNumberTriviaRepository;
 
   setUp(() {
     mockNumberTriviaRepository = MockNumberTriviaRepository();
-    usecase = GetRandomNumberTivia(mockNumberTriviaRepository!);
+    usecase = GetRandomNumberTrivia(mockNumberTriviaRepository!);
   });
 
   final tNumberTrivia = NumberTrivia(text: 'test', number: 1);

@@ -9,10 +9,10 @@ import 'package:number_trivia/features/number_trivia/domain/repositories/number_
 
 import '../../../../core/usecasses/usecase.dart';
 
-class GetRandomNumberTivia implements UseCase<NumberTrivia, NoParams> {
+class GetRandomNumberTrivia implements UseCase<NumberTrivia, NoParams> {
   final NumberTriviaRepository repository;
 
-  GetRandomNumberTivia(this.repository);
+  GetRandomNumberTrivia(this.repository);
 
   @override
   Future<Either<Failure, NumberTrivia>> call(NoParams params) async {

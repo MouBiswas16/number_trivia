@@ -1,13 +1,3 @@
-// part of 'number_trivia_bloc.dart';
-
-// abstract class NumberTriviaState extends Equatable {
-//   const NumberTriviaState();
-
-//   @override
-//   List<Object> get props => [];
-// }
-// class NumberTriviaInitial extends NumberTriviaState {}
-
 // ignore_for_file: import_of_legacy_library_into_null_safe
 
 import 'package:equatable/equatable.dart';
